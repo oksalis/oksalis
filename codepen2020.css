@@ -12,19 +12,19 @@
 
 @font-face {
   font-family: "Compagnon-LightItalic";
-  src: url(Compagnon-Bold.otf);
+  src: url(Compagnon-LightItalic.otf);
   font-weight: light-italic;
 }
 
 @font-face {
   font-family: "Compagnon-Medium";
-  src: url(Compagnon-Bold.otf);
+  src: url(Compagnon-Medium.otf);
   font-weight: medium;
 }
 
 @font-face {
   font-family: "Compagnon-Roman";
-  src: url(Compagnon-Bold.otf);
+  src: url(Compagnon-Roman.otf);
   font-weight: roman;
 }
 
@@ -429,7 +429,7 @@ body.show-floater .overlay {
   z-index: 9;
   text-decoration: none;
   font-style: normal;
-  font-family: "Compagnon", monospace;
+  font-family: "Compagnon-Light", monospace;
 }
 .bookmark:hover {
   color: #1ce;
