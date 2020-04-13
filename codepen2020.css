@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Compagnon-Bold";
+  src: url(Compagnon-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Compagnon-Bold";
+  src: url(Compagnon-Light.otf);
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Compagnon-LightItalic";
+  src: url(Compagnon-Bold.otf);
+  font-weight: light-italic;
+}
+
+@font-face {
+  font-family: "Compagnon-Medium";
+  src: url(Compagnon-Bold.otf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Compagnon-Roman";
+  src: url(Compagnon-Bold.otf);
+  font-weight: roman;
+}
+
+
+
 :root {
   --success: #b4b62d;
   --info: #571345;
@@ -9,7 +41,7 @@
 body {
   height: 100%;
   min-height: 100vh;
-  font-family: "Compagnon", monospace;
+  font-family: "Compagnon-Roman", monospace;
 }
 
 section {
@@ -21,7 +53,7 @@ h1,
 h2,
 h3 {
   margin-bottom: 50px;
-  font-family: "Compagnon", monospace;
+  font-family: "Compagnon-Bold", monospace;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -117,7 +149,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Compagnon", -apple-system, system-ui, BlinkMacSystemFont,
+  font-family: "Compagnon-Light", monospace, -apple-system, system-ui, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
@@ -125,7 +157,7 @@ textarea {
 
 .text-giant {
     font-size: 40px;
-    font-family: "Compagnon", monospace;
+    font-family: "Compagnon-Medium", monospace;
   }
   .btn-crazy {
     position: absolute;
@@ -133,7 +165,7 @@ textarea {
     left: 35%;
     width: 10%;
     transition: 0.3s ease all;
-    font-family: "Open sans", sans-serif;
+    font-family:  "Compagnon-Light", monospace;
   }
   .height-500px {
     height: 500px;
